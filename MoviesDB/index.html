@@ -11,11 +11,22 @@
 	<script src="javascript/vendor/bootstrap.min.js"></script>
   </head>
   <body ng-controller='MovieListController'>
-        <h1>{{title}} </h1>    
-        <div  ng-repeat="movie in movieList">		 
-          <img class='img-responsive' ng-src="http://image.tmdb.org/t/p/w370/{{movie.poster_path}}">                 
-          <h3>{{movie.title}}</h3>               
-		</div>   
+    <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="nav navbar-header">
+    <a class="navbar-brand" href="#/">MovieDB</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/popular">Popular</a></li>
+          <li><a href="#/topRated">Top Rated</a></li>
+          <li><a href="#/upcoming">Upcoming</a></li>
+          <li><a href="#/nowPlaying">Now Playing</a></li>
+      </ul>
+    </div>
+    </nav>
+  <div ng-view></div>
+  
+   
   </body>
   <script src='javascript/app.js'></script>
   <script src='javascript/controller.js'></script>
