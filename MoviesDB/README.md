@@ -1,20 +1,20 @@
-# mdb-initial 
+# moviesDB
 
-This project is a initial version of a student project used for
+This project is my version of a student project used for
 learning the AngularJS frame work.
 
 It uses the MoviesDB Api as its basis see http://docs.themoviedb.apiary.io/#
 
 To clone the application use the usual git clone command from a command tool
 
-1/ git clone https://github.com/lillylangtree/mdb-initial.git
+1/ git clone https://github.com/ggabriz/moviesDB.git
 
-2/ the clone will create a mdb-initial/MoviesDB folder in the current folder
+2/ the clone will create a moviesDB/MoviesDB folder in the current folder
 
 The application includes a package.json file which will allow you to run a 
 local http server. You need to have npm installed to do this.
 
-cd to mdb-initial/MoviesDB folder, the git clone creates this folder for you
+cd to moviesDB/MoviesDB folder, the git clone creates this folder for you
 
 1/ issue command npm start
 
